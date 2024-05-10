@@ -1,0 +1,43 @@
+
+header {
+    box-shadow: 1px 1px 10px black;
+    background-color: rgba(255, 255, 255, 0.59);
+    border-radius: 0 0 5px 5px;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.nav-link {
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  
+}
+
+#nambr {
+  font-family: "Blu's Blocks Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 300 !important;
+}
+
+.nav-active {
+  color: #FB598C !important;
+
+  svg {
+    fill: #FB598C;
+  }
+}
+
+svg:hover {
+  fill: #FB598C;
+}
+
+
+.nav-link:hover {
+  color: #FB598C;
+}
