@@ -1,0 +1,113 @@
+.services {
+  width: 80%;
+  
+  h1 {
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 70px;
+    font-family: "Blu's Blocks Regular", sans-serif !important;
+    font-size: 60px;
+    color: aqua;
+    font-weight: 300;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: wheat;
+  }
+}
+
+
+.wrapped-services {
+  display: flex;
+  gap: 20px;
+}
+
+
+.business, .individual {
+  width: 45%;
+  background-color: rgb(233, 104, 19);
+  border-radius: 10px;
+  border: 5px solid rgba(28, 27, 27, 0.315);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 18px;
+  color: black;
+}
+
+li:last-child {
+  border-bottom: none;
+ 
+}
+
+
+
+@media (max-width: 767px) {
+  .wrapped-services {
+  
+    gap: 10px;
+  }
+  .services {
+    width: 95%;
+
+    h1 {
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-bottom: 10px !important;
+    }
+  }
+  .business, .individual {
+    width: 95% !important;
+    background-color: rgb(233, 104, 19);
+    border-radius: 10px;
+    border: 5px solid rgba(28, 27, 27, 0.315);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  color: black;
+}
+  
+}
+
+@keyframes staggeredFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+.staggeredAnimate {
+  animation: staggeredFadeIn 8.5s ease forwards;
+}
+

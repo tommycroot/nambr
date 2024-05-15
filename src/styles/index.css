@@ -1,15 +1,16 @@
 @import url('./components/navbar.css');
 @import url('./components/hero.css');
-
+@import url('./components/about.css');
+@import url('./components/services.css');
+@import url('./components/contact.css');
 @import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
 
 * {
   box-sizing: border-box;
   margin: 0 auto;
- 
+
 }
 
-/* Other styles */
 body {
   background-color: rgb(238, 127, 53);
   color: #fff;
@@ -18,53 +19,26 @@ body {
   height: 100vh;
 }
 
-.about {
-  width: 60%;
-  margin-top: 155px;
-  
-  
-  p {
-    color: black;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    margin-top: 35px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-
-  h1 {
-    text-align: center;
-    color: wheat;
-    margin-top: 60px;
-
+  to {
+    opacity: 1;
   }
 }
 
-.about-me {
-  width: 60%;
-  margin-top: 10px;
-  
-  
-  p {
-    color: black;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    margin-top: 15px;
-  }
-
-
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
 }
 
-#big-text {
-  margin-top: 5px;
-  font-size: 25px;
-  color: wheat;
-  font-weight: 600;
-}
 
-#joe {
-  margin-top: 0px;
-  margin-left: 220px;
-  color:aqua;
+footer {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  color: black;
   font-weight: 600;
 }

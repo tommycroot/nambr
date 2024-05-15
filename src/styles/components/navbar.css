@@ -1,8 +1,19 @@
 
 header {
     box-shadow: 1px 1px 10px black;
-    background-color: rgba(255, 255, 255, 0.59);
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 0 0 5px 5px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 1px 1px 10px black;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0 0 5px 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-nav {
@@ -27,10 +38,10 @@ header {
 
 .nav-active {
   color: #FB598C !important;
+}
 
-  svg {
-    fill: #FB598C;
-  }
+a {
+  text-decoration: none;
 }
 
 svg:hover {
@@ -41,3 +52,4 @@ svg:hover {
 .nav-link:hover {
   color: #FB598C;
 }
+
