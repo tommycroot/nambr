@@ -30,26 +30,26 @@ const Services = () => {
         <div className='business'>
           <h2>Business</h2>
           <ul>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>General Accountancy services including but not limited to annual accounts, taxation, book-keeping and payroll.</li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>Financial and Management reporting </li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>Corporate treasury services together with guidance on strategy and execution</li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>Expert guidance on Research and Development Tax Credits for tech start ups</li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>Assistance with securing new funding</li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>General advisory services to meet your needs</li>
+            <li className={isVisible ? 'staggeredAnimate delay-0' : 'hide'}>General Accountancy services including but not limited to annual accounts, taxation, book-keeping and payroll.</li>
+            <li className={isVisible ? 'staggeredAnimate delay-1' : 'hide'}>Financial and Management reporting</li>
+            <li className={isVisible ? 'staggeredAnimate delay-2' : 'hide'}>Corporate treasury services together with guidance on strategy and execution</li>
+            <li className={isVisible ? 'staggeredAnimate delay-3' : 'hide'}>Expert guidance on Research and Development Tax Credits for tech start ups</li>
+            <li className={isVisible ? 'staggeredAnimate delay-4' : 'hide'}>Assistance with securing new funding</li>
+            <li className={isVisible ? 'staggeredAnimate delay-5' : 'hide'}>General advisory services to meet your needs</li>
           </ul>
         </div>
         <div className='individual'>
           <h2>Individual</h2>
           <ul>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>Personalised approach to help you start your investment journey or re-balance your investment portfolio</li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>Expert guidance on specific Stocks and Shares </li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>Expert guidance on other alternative investment opportunities such as Bitcoin</li>
-            <li className={isVisible ? 'staggeredAnimate' : ''}>General advisory services to meet your needs</li>
+            <li className={isVisible ? 'staggeredAnimate delay-0' : 'hide'}>Personalised approach to help you start your investment journey or re-balance your investment portfolio</li>
+            <li className={isVisible ? 'staggeredAnimate delay-1' : 'hide'}>Expert guidance on specific Stocks and Shares</li>
+            <li className={isVisible ? 'staggeredAnimate delay-2' : 'hide'}>Expert guidance on other alternative investment opportunities such as Bitcoin</li>
+            <li className={isVisible ? 'staggeredAnimate delay-3' : 'hide'}>General advisory services to meet your needs</li>
           </ul>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Services;

@@ -1,38 +1,36 @@
 .services {
   width: 80%;
-  
-  h1 {
-    text-align: center;
-    margin-top: 160px;
-    margin-bottom: 70px;
-    font-family: "Blu's Blocks Regular", sans-serif !important;
-    font-size: 60px;
-    color: aqua;
-    font-weight: 300;
-  }
-
-  h2 {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: wheat;
-  }
 }
 
+.services h1 {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  font-family: "Blu's Blocks Regular", sans-serif !important;
+  font-size: 80px;
+  color: aqua;
+  font-weight: 300;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: wheat;
+}
 
 .wrapped-services {
   display: flex;
   gap: 20px;
 }
 
-
 .business, .individual {
   width: 45%;
-  background-color: rgb(233, 104, 19);
+  background-color: rgb(230, 114, 38);
   border-radius: 10px;
   border: 5px solid rgba(28, 27, 27, 0.315);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 ul {
@@ -51,49 +49,38 @@ li {
 
 li:last-child {
   border-bottom: none;
- 
 }
-
-
 
 @media (max-width: 767px) {
   .wrapped-services {
-  
+    flex-direction: column;
     gap: 10px;
   }
+  
   .services {
     width: 95%;
-
-    h1 {
-      margin-bottom: 40px;
-    }
-    h2 {
-      margin-bottom: 10px !important;
-    }
   }
+
+  .services h1 {
+    font-size: 40px !important;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .services h2 {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+
+  }
+
   .business, .individual {
     width: 95% !important;
-    background-color: rgb(233, 104, 19);
-    border-radius: 10px;
-    border: 5px solid rgba(28, 27, 27, 0.315);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
-  
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-}
-
-li {
-  padding: 10px 0px 10px 0px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 12px;
-  color: black;
-}
-  
+  li {
+    padding: 10px 0;
+    font-size: 12px;
+  }
 }
 
 @keyframes staggeredFadeIn {
@@ -108,6 +95,34 @@ li {
 }
 
 .staggeredAnimate {
-  animation: staggeredFadeIn 8.5s ease forwards;
+  animation: staggeredFadeIn 1s ease forwards;
+  opacity: 0;
 }
 
+.staggeredAnimate.delay-0 {
+  animation-delay: 0s;
+}
+
+.staggeredAnimate.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.staggeredAnimate.delay-2 {
+  animation-delay: 1s;
+}
+
+.staggeredAnimate.delay-3 {
+  animation-delay: 1.5s;
+}
+
+.staggeredAnimate.delay-4 {
+  animation-delay: 2s;
+}
+
+.staggeredAnimate.delay-5 {
+  animation-delay: 2.5s;
+}
+
+.hide {
+  display: none;
+}

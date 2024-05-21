@@ -17,6 +17,7 @@ body {
   font-family: 'Roboto', sans-serif;
   flex-direction: row;
   height: 100vh;
+  width: 100%;
 }
 
 @keyframes fadeIn {
@@ -41,4 +42,6 @@ footer {
   padding-bottom: 10px;
   color: black;
   font-weight: 600;
+  font-family: monospace;
 }
+

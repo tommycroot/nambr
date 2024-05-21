@@ -7,7 +7,7 @@ form {
 }
 
 .form-group label {
-  display: block; /* Labels will be displayed as block elements */
+  display: block; 
   margin-bottom: 5px;
 }
 
@@ -43,10 +43,10 @@ button:hover {
   
   h1 {
     text-align: center;
-    margin-top: 160px;
-    margin-bottom: 70px;
+    margin-top: 120px;
+    margin-bottom: 40px;
     font-family: "Blu's Blocks Regular", sans-serif !important;
-    font-size: 60px;
+    font-size: 80px;
     color: aqua;
     font-weight: 300;
   }
@@ -70,15 +70,53 @@ button:hover {
     margin-bottom: 30px;
     margin: 0px 68px 30px 68px;
     color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 }
 
 form {
-  background-color: rgb(233, 104, 19);
+  background-color: rgb(230 114 38);
   width: 60%;
   border-radius: 10px;
   border: 5px solid rgba(28, 27, 27, 0.315);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   
+}
+
+#contact-p {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 30px;
+  width: 70%;
+
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 45px !important;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+  }
+  .contact {
+    width: 100vw;
+  }
+  .nambr-form {
+    width: 90vw;
+  }
+
+  .form-group input,
+.form-group textarea {
+  width: 250px !important;
+  padding: 12px 10px 0px 10px !important;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  #contact-p {
+  width: 250px !important;
+
+  }
+
 }
