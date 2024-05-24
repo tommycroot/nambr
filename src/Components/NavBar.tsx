@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link as ScrollLink } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
   const [offsets, setOffsets] = useState({
@@ -37,10 +37,10 @@ const NavBar = () => {
     <Navbar expand="md" className="navbar">
       <Container>
         <Nav className="nav ml-auto">
-          <ScrollLink className='nav-link' to="nambr" spy={true} smooth={true} duration={600}>NAMBR</ScrollLink>
-          <ScrollLink className='nav-link' activeClass='nav-active' to="about" spy={true} smooth={true} offset={offsets.about} duration={600}>about</ScrollLink>
-          <ScrollLink className='nav-link' activeClass='nav-active' to="services" spy={true} smooth={true} offset={offsets.services} duration={600}>services</ScrollLink>
-          <ScrollLink className='nav-link' activeClass='nav-active' to="contact" spy={true} smooth={true} offset={offsets.contact} duration={600}>contact</ScrollLink>
+          <a className='nav-link' id='nambr' href='#'>NAMBR</a>
+          <Link className='nav-link' activeClass='nav-active' to="about" spy={true} smooth={true} offset={offsets.about} duration={600}>about</Link>
+          <Link className='nav-link' activeClass='nav-active' to="services" spy={true} smooth={true} offset={offsets.services} duration={600}>services</Link>
+          <Link className='nav-link' activeClass='nav-active' to="contact" spy={true} smooth={true} offset={offsets.contact} duration={600}>contact</Link>
         </Nav>
       </Container>
     </Navbar>
