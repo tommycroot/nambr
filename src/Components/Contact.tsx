@@ -19,7 +19,7 @@ interface Errors {
 }
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("xkndekbz");
+  const [state, handleSubmit] = useForm("mzbnqaqd");
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
