@@ -20,6 +20,14 @@ form {
   border-radius: 4px;
 }
 
+.error {
+  padding: 0px;
+  width: 200px;
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: center;
+}
 .form-group label {
   color: black;
   font-weight: 600;
@@ -47,7 +55,7 @@ button:hover {
     margin-bottom: 40px;
     font-family: "Blu's Blocks Regular", sans-serif !important;
     font-size: 80px;
-    color: aqua;
+    color: #23e8e8;
     font-weight: 300;
   }
 
@@ -90,7 +98,15 @@ form {
   font-weight: 600;
   margin-bottom: 30px;
   width: 70%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+#thanks {
+  text-align: center;
+    color: crimson;
+    font-size: 30px;
+    padding-top: 40px;
 }
 
 @media (max-width: 767px) {
@@ -108,15 +124,43 @@ form {
 
   .form-group input,
 .form-group textarea {
-  width: 250px !important;
+  width: 300px !important;
   padding: 12px 10px 0px 10px !important;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
   #contact-p {
-  width: 250px !important;
-
+  width: 300px !important;
   }
 
+  #thanks {
+    text-align: center;
+      margin-left: 0px !important;
+      color: crimson;
+      font-size: 20px !important;
+      padding-top: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  #thanks {
+    margin-left: 0px !important; 
+    margin-right: 0px !important;
+    margin-bottom: 70px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+
+  .about {
+    p {
+      font-size: 20px;
+    }
+    #big-text {
+      font-size: 22px;
+    }
+  }
 }

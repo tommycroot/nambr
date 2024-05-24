@@ -23,15 +23,15 @@ function App() {
         <NavBar />
       </header>
       <Hero />
-      {showAbout && (
-        <div className="fade-in">
+     
+        <div>
           <About />
           <Services />
           <Contact />
           <footer>Website by Tommy Croot</footer>
 
         </div>
-      )}
+      
   
     </div>
     

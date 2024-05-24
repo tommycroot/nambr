@@ -38,7 +38,7 @@
 
 @media (max-width: 767px) {
   .word {
-    margin-top: 260px;
+    margin-top: 35vh !important;
   }
 
   .capital-word {
@@ -72,6 +72,17 @@
     80% {
       transform: scale(1) translate(0, 0);
     }
+  }
+
+}
+
+@media (max-width: 950px) {
+  .word {
+    margin-top: 35vh !important;
+   
+  }
+  .capital-word {
+    margin-top: 80px;
   }
 
 }
@@ -115,13 +126,13 @@
 .capital-word span:nth-child(1).active {
   animation: balance 1.5s ease-out;
   transform-origin: bottom left;
-  color: aqua;
+  color: #23e8e8;
   opacity: 1 !important;
 }
 
 .word span:nth-child(1),
 .capital-word span:nth-child(1) {
-  color: aqua;
+  color: #23e8e8;
   opacity: 1 !important;
 }
 
@@ -143,14 +154,14 @@
 .capital-word span:nth-child(6).active {
   animation: shrinkjump 1s ease-in-out;
   transform-origin: bottom center;
-  color: rgb(253, 136, 210);
+  color: greenyellow;
   opacity: 1;
 }
 
 .word span:nth-child(2),
 .capital-word span:nth-child(2),
 .capital-word span:nth-child(6) {
-  color: rgb(253, 136, 210);
+  color: greenyellow;
   opacity: 1 !important;
 }
 
@@ -175,12 +186,12 @@
 .capital-word span:nth-child(3).active {
   animation: falling 2s ease-out;
   transform-origin: bottom center;
-  color: greenyellow;
+  color: wheat;
 }
 
 .word span:nth-child(3),
 .capital-word span:nth-child(3) {
-  color: greenyellow;
+  color: wheat;
   opacity: 1 !important;
 }
 
@@ -213,21 +224,21 @@
 
 .word span:nth-child(4).active {
   animation: rotate 1s ease-out;
-  color: rgb(253, 136, 210);
+  color: greenyellow;
 }
 
 .capital-word span:nth-child(4).active {
   animation: rotate 1s ease-out;
-  color: wheat;
+  color: rgb(253, 136, 210);
 }
 
 .word span:nth-child(4) {
-  color: rgb(253, 136, 210);
+  color: greenyellow;
   opacity: 1 !important;
 }
 
 .capital-word span:nth-child(4) {
-  color: wheat;
+  color: rgb(253, 136, 210);
   opacity: 1 !important;
 }
 
@@ -245,33 +256,33 @@
 
 .word span:nth-child(5).active {
   animation: balance-opp 1.5s linear;
-  color: aqua;
+  color: #23e8e8;
 }
 
 .capital-word span:nth-child(5).active {
   animation: falling 2s ease-out;
   transform-origin: bottom center;
-  color: greenyellow;
+  color: wheat;
 }
 
 .word span:nth-child(5) {
-  color: aqua;
+  color: #23e8e8;
   opacity: 1 !important;
 }
 
 .capital-word span:nth-child(5) {
-  color: greenyellow;
+  color: wheat;
   opacity: 1 !important;
 }
 
 .capital-word span:nth-child(7) {
-  color: aqua;
+  color: #23e8e8;
   opacity: 1 !important;
 }
 
 .capital-word span:nth-child(7).active {
   animation: balance-opp 1.5s linear;
-  color: aqua;
+  color: #23e8e8;
   opacity: 1 !important;
 }
 

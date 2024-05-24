@@ -8,7 +8,7 @@
   margin-bottom: 40px;
   font-family: "Blu's Blocks Regular", sans-serif !important;
   font-size: 80px;
-  color: aqua;
+  color: #23e8e8;
   font-weight: 300;
 }
 
@@ -79,7 +79,7 @@ li:last-child {
   
   li {
     padding: 10px 0;
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -125,4 +125,10 @@ li:last-child {
 
 .hide {
   display: none;
+}
+
+@media (max-width: 950px) {
+  .services {
+    width: 95%;
+  }
 }
