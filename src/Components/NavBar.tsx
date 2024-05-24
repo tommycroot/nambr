@@ -37,7 +37,7 @@ const NavBar = () => {
     <Navbar expand="md" className="navbar">
       <Container>
         <Nav className="nav ml-auto">
-          <ScrollLink className='nav-link' to="nambr" spy={true} smooth={true} duration={600}>NAMBR</ScrollLink>
+          <ScrollLink className='nav-link' id='nambr' to="hero" spy={true} smooth={true} duration={600}>NAMBR</ScrollLink>
           <ScrollLink className='nav-link' activeClass='nav-active' to="about" spy={true} smooth={true} offset={offsets.about} duration={600}>about</ScrollLink>
           <ScrollLink className='nav-link' activeClass='nav-active' to="services" spy={true} smooth={true} offset={offsets.services} duration={600}>services</ScrollLink>
           <ScrollLink className='nav-link' activeClass='nav-active' to="contact" spy={true} smooth={true} offset={offsets.contact} duration={600}>contact</ScrollLink>
