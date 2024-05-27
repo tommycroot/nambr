@@ -30,12 +30,13 @@
 
 .business, .individual {
   width: 45%;
-  background-color: rgb(207 114 53);
+  background-color: rgb(243 138 69);
   border-radius: 10px;
   border: 5px solid rgba(28, 27, 27, 0.315);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  font-family: 'Fredoka', sans-serif; 
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400; 
 }
 
 ul {

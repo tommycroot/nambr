@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/baby-blocks');
+@import url('https://fonts.cdnfonts.com/css/fredoka');
 form {
   display: flex;
   flex-direction: column;
@@ -10,6 +11,7 @@ form {
 .form-group label {
   display: block; 
   margin-bottom: 5px;
+  font-family:'Fredoka', sans-serif;
 }
 
 .form-group input,
@@ -19,6 +21,7 @@ form {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-family:'Fredoka', sans-serif !important;
 }
 
 .error {
@@ -28,6 +31,8 @@ form {
   margin-top: 10px;
   font-weight: 600;
   text-align: center;
+  font-family:'Fredoka', sans-serif;
+  color: red;
 }
 .form-group label {
   color: black;
@@ -35,7 +40,8 @@ form {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #3b843e;
+  font-family:'Fredoka', sans-serif;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -60,18 +66,14 @@ button:hover {
     font-weight: 300;
   }
 
-  h2 {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: wheat;
-  }
+  
 
   h3 {
     font-size: 30px;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family:'Fredoka', sans-serif;
   }
 
   p {
@@ -79,12 +81,12 @@ button:hover {
     margin-bottom: 30px;
     margin: 0px 68px 30px 68px;
     color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Fredoka', sans-serif;
   }
 }
 
 form {
-  background-color: rgb(207 114 53);
+  background-color: rgb(243 138 69);
   width: 60%;
   border-radius: 10px;
   border: 5px solid rgba(28, 27, 27, 0.315);
@@ -98,8 +100,8 @@ form {
   color: black;
   font-weight: 600;
   margin-bottom: 30px;
-  width: 70%;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 67%;
+  font-family:'Fredoka', sans-serif;
 
 }
 
@@ -108,6 +110,7 @@ form {
     color: crimson;
     font-size: 30px;
     padding-top: 40px;
+    font-family:'Fredoka', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -115,6 +118,7 @@ form {
     font-size: 25px !important;
     margin-top: 40px !important;
     margin-bottom: 30px !important;
+    font-family:'Fredoka', sans-serif !important;
   }
   .contact {
     width: 100vw;
@@ -126,7 +130,7 @@ form {
   .form-group input,
 .form-group textarea {
   width: 100% !important;
-
+  font-family:'Fredoka', sans-serif !important;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
