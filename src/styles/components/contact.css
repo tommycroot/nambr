@@ -14,10 +14,11 @@ form {
   font-family:'Fredoka', sans-serif;
 }
 
+
 .form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 12px 140px 0px 140px;
+.form-group textarea {  
+  width: 40vw;
+  padding: 12px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -133,7 +134,7 @@ form {
 
   .form-group input,
 .form-group textarea {
-  width: 100% !important;
+  width: 70vw !important;
   font-family:'Fredoka', sans-serif !important;
   font-size: 12px;
   color:black;
