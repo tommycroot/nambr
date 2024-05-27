@@ -16,7 +16,7 @@ const NavBar = () => {
       setOffsets({
         about: -400,  
         services: -50,  
-        contact: -30
+        contact: -40
       });
     } else {
       setOffsets({
