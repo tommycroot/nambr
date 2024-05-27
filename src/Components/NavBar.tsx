@@ -20,9 +20,9 @@ const NavBar = () => {
       });
     } else {
       setOffsets({
-        about: -550,
+        about: -560,
         services: -90,
-        contact: -90
+        contact: -80
       });
     }
   };
