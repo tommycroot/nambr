@@ -41,10 +41,10 @@ const Services = () => {
         <div className='individual'>
           <h2>Individual</h2>
           <ul>
-            <li className={isVisible ? 'staggeredAnimate delay-0' : 'hide'}>Personalised approach to help you start your investment journey or re-balance your investment portfolio</li>
-            <li className={isVisible ? 'staggeredAnimate delay-1' : 'hide'}>Expert guidance on specific stocks and shares</li>
-            <li className={isVisible ? 'staggeredAnimate delay-2' : 'hide'}>Expert guidance on other alternative investment opportunities such as Bitcoin</li>
-            <li className={isVisible ? 'staggeredAnimate delay-3' : 'hide'}>General advisory services to meet your needs</li>
+            <li className={isVisible ? 'staggeredAnimate delay-6' : 'hide'}>Personalised approach to help you start your investment journey or re-balance your investment portfolio</li>
+            <li className={isVisible ? 'staggeredAnimate delay-7' : 'hide'}>Expert guidance on specific stocks and shares</li>
+            <li className={isVisible ? 'staggeredAnimate delay-8' : 'hide'}>Expert guidance on other alternative investment opportunities such as Bitcoin</li>
+            <li className={isVisible ? 'staggeredAnimate delay-9' : 'hide'}>General advisory services to meet your needs</li>
           </ul>
         </div>
       </div>
