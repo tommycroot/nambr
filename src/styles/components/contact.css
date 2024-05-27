@@ -69,7 +69,7 @@ button:hover {
 
   h3 {
     font-size: 30px;
-    color: wheat;
+    color: white;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -98,7 +98,7 @@ form {
   color: black;
   font-weight: 600;
   margin-bottom: 30px;
-  width: 70%;
+  width: 90%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -125,8 +125,8 @@ form {
 
   .form-group input,
 .form-group textarea {
-  width: 300px !important;
-  padding: 12px 10px 0px 10px !important;
+  width: 100% !important;
+
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
