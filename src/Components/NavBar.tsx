@@ -22,7 +22,7 @@ const NavBar = () => {
       setOffsets({
         about: -560,
         services: -90,
-        contact: -80
+        contact: -100
       });
     }
   };
