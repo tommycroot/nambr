@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,7 +25,7 @@ const Services = () => {
 
   return (
     <div className='services' ref={servicesRef}>
-      <h1>S<span className='fifth-letter'>E</span><span className='third-letter'>R</span><span className='forth-letter'>V</span><span className='fifth-letter'>I</span><span className='third-letter'>C</span><span className='second-letter'>E</span>S</h1>
+      <h1>S<span className='fifth-letter'>E</span><span className='third-letter'>R</span><span className='forth-letter'>V</span><span id='i' className='fifth-letter'>I</span><span className='third-letter'>C</span><span className='second-letter'>E</span><span id='S'>S</span></h1>
       <div className='wrapped-services'>
         <div className='business'>
           <h2>Business</h2>

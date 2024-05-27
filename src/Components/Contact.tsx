@@ -60,8 +60,8 @@ const Contact = () => {
   return (
     <div className='contact'>
       <h1>
-        C<span className='second-letter'>O</span><span className='third-letter'>N</span><span className='fifth-letter'>T</span>
-        <span className='third-letter'>A</span><span className='second-letter'>C</span>T
+        C<span className='second-letter'>O</span><span className='third-letter'>N</span><span className='fifth-letter' id='T'>T</span>
+        <span className='third-letter'>A</span><span className='second-letter'>C</span><span id='T2'>T</span>
       </h1>
 
       {state.succeeded ? (

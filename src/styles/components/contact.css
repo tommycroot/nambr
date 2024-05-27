@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/baby-blocks');
 form {
   display: flex;
   flex-direction: column;
@@ -53,7 +54,7 @@ button:hover {
     text-align: center;
     margin-top: 120px;
     margin-bottom: 40px;
-    font-family: "Blu's Blocks Regular", sans-serif !important;
+    font-family: "Baby Blocks", sans-serif !important;
     font-size: 80px;
     color: #23e8e8;
     font-weight: 300;
@@ -111,7 +112,7 @@ form {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 45px !important;
+    font-size: 35px !important;
     margin-top: 40px !important;
     margin-bottom: 30px !important;
   }
@@ -163,4 +164,13 @@ form {
       font-size: 22px;
     }
   }
+}
+
+
+#T {
+  color: #23e8e8;
+}
+
+#T2 {
+  margin-left: 10px;
 }

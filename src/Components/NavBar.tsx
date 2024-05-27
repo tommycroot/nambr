@@ -14,13 +14,13 @@ const NavBar = () => {
   const updateOffsets = () => {
     if (window.innerWidth <= 767) {
       setOffsets({
-        about: -380,  
+        about: -400,  
         services: -50,  
-        contact: -50
+        contact: -30
       });
     } else {
       setOffsets({
-        about: -530,
+        about: -550,
         services: -90,
         contact: -90
       });

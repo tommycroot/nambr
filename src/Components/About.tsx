@@ -3,7 +3,7 @@ const About = () => {
 
   return (
     <div className='about-main'>
-      <h1>A<span className='fifth-letter'>B</span><span className='third-letter'>O</span><span className='second-letter'>U</span>T</h1>
+      <h1>A<span className='fifth-letter'>B</span><span className='third-letter'>O</span><span className='second-letter'>U</span><span id='T'>T</span></h1>
       <div className='about'>
 
         <h2>Joe Rayner FCCA, Chartered Financial Accountant</h2>

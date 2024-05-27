@@ -1,3 +1,8 @@
+
+@import url('https://fonts.cdnfonts.com/css/baby-blocks');
+
+                
+
 .hero {
   height: 100vh;
   width: 90vw !important;
@@ -13,9 +18,9 @@
 
 .word,
 .capital-word {
-  font-family: "Blu's Blocks Regular", sans-serif;
+  font-family: "Baby Blocks", sans-serif;
   perspective: 1000px;
-  margin-top: 100px;
+  margin-top: 110px;
   text-align: center;
   opacity: 1;
 }
@@ -36,6 +41,23 @@
 }
 
 
+
+@media (max-width: 1024px) {
+
+  .word span, .capital-word span {
+    font-size: 60px !important;
+  }
+  .word {
+    margin-top: 35vh !important;
+   
+  }
+  .capital-word {
+    margin-top: 80px;
+  }
+
+}
+
+
 @media (max-width: 767px) {
   .word {
     margin-top: 35vh !important;
@@ -48,7 +70,7 @@
   .word span,
   .capital-word span {
 
-    font-size: 45px;
+    font-size: 35px !important;
     margin-right: 5px;
   }
 
@@ -75,18 +97,6 @@
   }
 
 }
-
-@media (max-width: 950px) {
-  .word {
-    margin-top: 35vh !important;
-   
-  }
-  .capital-word {
-    margin-top: 80px;
-  }
-
-}
-
 
 #blocks {
   text-align: center;
@@ -186,12 +196,12 @@
 .capital-word span:nth-child(3).active {
   animation: falling 2s ease-out;
   transform-origin: bottom center;
-  color: wheat;
+  color: white;
 }
 
 .word span:nth-child(3),
 .capital-word span:nth-child(3) {
-  color: wheat;
+  color: white;
   opacity: 1 !important;
 }
 
@@ -229,7 +239,7 @@
 
 .capital-word span:nth-child(4).active {
   animation: rotate 1s ease-out;
-  color: rgb(253, 136, 210);
+  color: #23e8e8;
 }
 
 .word span:nth-child(4) {
@@ -238,10 +248,9 @@
 }
 
 .capital-word span:nth-child(4) {
-  color: rgb(253, 136, 210);
+  color: #23e8e8;;
   opacity: 1 !important;
 }
-
 @keyframes rotate {
 
   20%,
@@ -262,7 +271,7 @@
 .capital-word span:nth-child(5).active {
   animation: falling 2s ease-out;
   transform-origin: bottom center;
-  color: wheat;
+  color: white;
 }
 
 .word span:nth-child(5) {
@@ -271,7 +280,7 @@
 }
 
 .capital-word span:nth-child(5) {
-  color: wheat;
+  color: white;
   opacity: 1 !important;
 }
 
