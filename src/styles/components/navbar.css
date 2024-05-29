@@ -40,7 +40,7 @@ header {
 }
 
 .nav-active {
-  color: #FB598C !important;
+  color: rgb(233, 136, 72)!important;
 }
 
 a {
@@ -48,11 +48,11 @@ a {
 }
 
 svg:hover {
-  fill: #FB598C;
+  fill: rgb(233, 136, 72);
 }
 
 
 .nav-link:hover {
-  color: #FB598C;
+  color: rgb(233, 136, 72);
 }
 
